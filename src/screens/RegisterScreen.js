@@ -58,7 +58,9 @@ export default function RegisterScreen({ navigation }) {
         textContentType="emailAddress"
         keyboardType="email-address"
       />
-     
+       <TextInput
+        label="Phone Number"
+      />
       <TextInput
         label="Password"
         returnKeyType="done"
